@@ -6,7 +6,6 @@ import TodoItems from "./components/TodoItems";
 import TodoItemsContextProvider from "./Store/todo-items-store";
 
 function App() {
-
   return (
     <TodoItemsContextProvider>
       <center className="todo-container">
