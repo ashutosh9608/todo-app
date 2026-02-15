@@ -1,8 +1,8 @@
 import "./App.css";
-import AddTodo from "./temp/AddTodo";
-import AppName from "./temp/AppName";
-import EmptyMessage from "./temp/EmptyMessage";
-import TodoItems from "./temp/TodoItems";
+import AddTodo from "./components/AddTodo";
+import AppName from "./components/AppName";
+import EmptyMessage from "./components/EmptyMessage";
+import TodoItems from "./components/TodoItems";
 import TodoItemsContextProvider from "./Store/todo-items-store";
 
 function App() {
